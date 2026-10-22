@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070A12" />
+    <meta
+      name="description"
+      content="ORBITAL_X is a next-generation commercial station for science, discovery, and life beyond Earth."
+    />
+    <title>ORBITAL_X | Humanity's next home is in orbit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="home">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="ORBITAL_X home">
+          <span class="brand-orbit" aria-hidden="true"><i></i></span>
+          <span>ORBITAL<span class="brand-accent">_X</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span>
+        </button>
+        <nav
+          class="primary-nav"
+          id="primary-nav"
+          aria-label="Primary navigation"
+        >
+          <a href="index.html" data-nav="home">Home</a>
+          <a href="station.html" data-nav="station">The Station</a>
+          <a href="crew.html" data-nav="crew">Crew</a>
+          <a href="missions.html" data-nav="missions">Missions</a>
+          <a href="discoveries.html" data-nav="discoveries">Discoveries</a>
+          <a href="gallery.html" data-nav="gallery">Gallery</a>
+          <a href="contact.html" data-nav="contact">Contact</a>
+        </nav>
+        <a class="header-cta" href="missions.html#manifest"
+          >Track missions
+          <i class="fa-solid fa-list-check" aria-hidden="true"></i
+        ></a>
+      </header>
+
+      <main>
+        <section class="hero home-hero" id="home" aria-labelledby="hero-title">
+          <div class="hero-visual hero-visual-a" aria-hidden="true"></div>
+          <div class="hero-visual hero-visual-b" aria-hidden="true"></div>
+          <div class="hero-shade" aria-hidden="true"></div>
+          <div class="hero-content">
+            <p class="eyebrow">
+              <span class="live-dot"></span> ORBITAL RESEARCH PROGRAM
+              <span class="eyebrow-slash">/</span> 2036
+            </p>
+            <h1 id="hero-title">
+              Humanity's next<br />home is <span>in orbit.</span>
+            </h1>
+            <p class="hero-copy">
+              A new frontier for science, discovery, and the future of human
+              life beyond Earth.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="station.html"
+                >Explore the station
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+              ></a>
+              <a class="button button-quiet" href="missions.html"
+                >Discover our missions
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="hero-coordinates mono">
+            <span>ISS TRANSFER ORBIT</span><span>51° 38′ N &nbsp; 408 KM</span>
+          </div>
+          <div class="hero-scroll mono">
+            <span class="scroll-stem"></span> SCROLL TO EXPLORE
+          </div>
+          <div class="hero-counter mono">
+            <span data-hero-counter>01</span> <span>/</span> 03
+          </div>
+          <div class="hero-stats" aria-label="Station concept data">
+            <div>
+              <span class="stat-label mono">ORBITAL ALTITUDE</span
+              ><strong>408 <small>KM</small></strong>
+            </div>
+            <div>
+              <span class="stat-label mono">PRESSURIZED MODULES</span
+              ><strong>06 <small>CONCEPT</small></strong>
+            </div>
+            <div>
+              <span class="stat-label mono">MISSION STATUS</span
+              ><strong class="status-value"
+                ><i class="live-dot"></i> CONCEPT DATA</strong
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="mission-ribbon" aria-label="Featured mission">
+          <div class="ribbon-label mono">
+            <span class="live-dot"></span> FEATURED MISSION
+          </div>
+          <div class="ribbon-title">
+            <span class="mono">OX-07</span
+            ><strong>Living systems, new worlds</strong>
+          </div>
+          <p>
+            A 10-day orbital research expedition studying resilient life-support
+            systems.
+          </p>
+          <a
+            class="arrow-link"
+            href="missions.html"
+            aria-label="View featured mission"
+            ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+          ></a>
+        </section>
+
+        <section
+          class="section station-preview section-pad"
+          aria-labelledby="station-title"
+        >
+          <div class="section-intro-block">
+            <p class="eyebrow mono">01 / THE STATION</p>
+            <h2 id="station-title">
+              A new vantage<br />on <span>everything.</span>
+            </h2>
+            <p>
+              More than a destination, ORBITAL_X is a place to work, live, and
+              look outward. A modular research outpost designed around the
+              people and ideas that move us forward.
+            </p>
+            <a class="text-link" href="station.html"
+              >Meet the station
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+          <a
+            class="station-preview-image image-link"
+            href="station.html"
+            aria-label="Explore the ORBITAL_X station"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1400&q=88"
+              alt="Earth's curved horizon glowing blue from orbit"
+              loading="lazy"
+            />
+            <span class="image-index mono">OX / 001 — LOW EARTH ORBIT</span>
+            <span class="image-corner"
+              ><i
+                class="fa-solid fa-arrow-up-right-from-square"
+                aria-hidden="true"
+              ></i
+            ></span>
+          </a>
+        </section>
+
+        <section
+          class="module-preview section-pad"
+          aria-labelledby="modules-title"
+        >
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow mono">02 / BUILT FOR THE UNKNOWN</p>
+              <h2 id="modules-title">
+                Six modules.<br /><span>One orbit.</span>
+              </h2>
+            </div>
+            <p>
+              Every space has a purpose. Explore the places that make life and
+              work above Earth possible.
+            </p>
+          </div>
+          <div class="module-grid">
+            <a class="module-card" href="station.html#modules"
+              ><span class="module-number mono">01 / COMMAND</span
+              ><i class="fa-solid fa-compass-drafting" aria-hidden="true"></i>
+              <h3>Command center</h3>
+              <p class="module-description">
+                Navigation, communications, and mission operations.
+              </p>
+              <span class="module-arrow">↗</span></a
+            >
+            <a class="module-card" href="station.html#modules"
+              ><span class="module-number mono">02 / RESEARCH</span
+              ><i class="fa-solid fa-flask" aria-hidden="true"></i>
+              <h3>Research laboratory</h3>
+              <p class="module-description">
+                A flexible workspace for research in microgravity.
+              </p>
+              <span class="module-arrow">↗</span></a
+            >
+            <a class="module-card" href="station.html#modules"
+              ><span class="module-number mono">03 / CREW HABITAT</span
+              ><i class="fa-solid fa-bed" aria-hidden="true"></i>
+              <h3>Living quarters</h3>
+              <p class="module-description">
+                Private crew berths and shared spaces to recharge.
+              </p>
+              <span class="module-arrow">↗</span></a
+            >
+            <a class="module-card" href="station.html#modules"
+              ><span class="module-number mono">04 / EARTH OBSERVATION</span
+              ><i class="fa-solid fa-earth-americas" aria-hidden="true"></i>
+              <h3>Observation dome</h3>
+              <p class="module-description">
+                A panoramic window onto Earth and its changing skies.
+              </p>
+              <span class="module-arrow">↗</span></a
+            >
+            <a class="module-card" href="station.html#modules"
+              ><span class="module-number mono">05 / POWER SYSTEMS</span
+              ><i class="fa-solid fa-solar-panel" aria-hidden="true"></i>
+              <h3>Solar array</h3>
+              <p class="module-description">
+                Solar wings and systems that keep the station powered.
+              </p>
+              <span class="module-arrow">↗</span></a
+            >
+            <a class="module-card" href="station.html#modules"
+              ><span class="module-number mono">06 / ARRIVAL &amp; CARGO</span
+              ><i class="fa-solid fa-satellite-dish" aria-hidden="true"></i>
+              <h3>Docking bay</h3>
+              <p class="module-description">
+                A dedicated arrival point for crew vehicles and cargo.
+              </p>
+              <span class="module-arrow">↗</span></a
+            >
+          </div>
+          <a class="text-link" href="station.html#modules"
+            >Explore all station modules
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+          ></a>
+        </section>
+
+        <section
+          class="crew-spotlight section-pad"
+          aria-labelledby="crew-title"
+        >
+          <div class="crew-image">
+            <img
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1100&q=88"
+              alt="Portrait of fictional mission commander Amara Okafor"
+              loading="lazy"
+            />
+          </div>
+          <div class="crew-copy">
+            <p class="eyebrow mono">03 / PEOPLE OF ORBIT</p>
+            <h2 id="crew-title">
+              Great missions<br />start with <span>people.</span>
+            </h2>
+            <p>
+              Meet the scientists, engineers, and explorers bringing the next
+              chapter of spaceflight into focus.
+            </p>
+            <div class="crew-name">
+              <strong>Amara Okafor</strong
+              ><span class="mono">MISSION COMMANDER · OX-07</span>
+            </div>
+            <a class="text-link" href="crew.html"
+              >Meet the crew
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+        </section>
+
+        <section
+          class="mission-preview section-pad"
+          aria-labelledby="missions-title"
+        >
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow mono">04 / FLIGHT MANIFEST</p>
+              <h2 id="missions-title">
+                The work<br />is <span>just beginning.</span>
+              </h2>
+            </div>
+            <a class="text-link" href="missions.html"
+              >All missions
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="mission-list">
+            <a href="missions.html" class="mission-row"
+              ><span class="mono mission-id">OX-07</span
+              ><span class="mission-name"
+                ><strong>Living systems, new worlds</strong
+                ><small>Life sciences · 10-day expedition</small></span
+              ><span class="mission-date mono">2036 / Q3</span
+              ><span class="mission-status">PLANNED</span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+            <a href="missions.html" class="mission-row"
+              ><span class="mono mission-id">OX-08</span
+              ><span class="mission-name"
+                ><strong>Materials without gravity</strong
+                ><small>Advanced materials · 14-day expedition</small></span
+              ><span class="mission-date mono">2037 / Q1</span
+              ><span class="mission-status">IN DESIGN</span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+            <a href="missions.html" class="mission-row"
+              ><span class="mono mission-id">OX-09</span
+              ><span class="mission-name"
+                ><strong>Eyes on the blue planet</strong
+                ><small>Earth observation · 12-day expedition</small></span
+              ><span class="mission-date mono">2037 / Q2</span
+              ><span class="mission-status">PLANNED</span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+          <p class="fine-print mono">
+            ALL DATES AND MISSION DETAILS ARE FICTIONAL CONCEPT DATA.
+          </p>
+        </section>
+
+        <section
+          class="discovery-band section-pad"
+          aria-labelledby="discovery-title"
+        >
+          <div class="discovery-image">
+            <img
+              src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?auto=format&fit=crop&w=1400&q=88"
+              alt="A luminous nebula surrounded by distant stars"
+              loading="lazy"
+            />
+          </div>
+          <div class="discovery-copy">
+            <p class="eyebrow mono">05 / FIELD NOTES</p>
+            <h2 id="discovery-title">
+              A universe of<br /><span>new questions.</span>
+            </h2>
+            <p>
+              From microgravity biology to a changing Earth, each expedition
+              opens another window into the way our universe works.
+            </p>
+            <a class="text-link" href="discoveries.html"
+              >Explore discoveries
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+        </section>
+
+        <section
+          class="gallery-preview section-pad"
+          aria-labelledby="gallery-title"
+        >
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow mono">06 / OUT OF THIS WORLD</p>
+              <h2 id="gallery-title">
+                A different<br /><span>point of view.</span>
+              </h2>
+            </div>
+            <a class="text-link" href="gallery.html"
+              >Open the gallery
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="home-gallery">
+            <a href="gallery.html"
+              ><img
+                src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1100&q=88"
+                alt="Earth suspended in the darkness of space"
+                loading="lazy"
+              /><span class="mono">01 / THE BLUE PLANET</span></a
+            ><a href="gallery.html"
+              ><img
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=88"
+                alt="Blue atmospheric glow over Earth's horizon"
+                loading="lazy"
+              /><span class="mono">02 / THE THIN BLUE LINE</span></a
+            ><a href="gallery.html"
+              ><img
+                src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=900&q=88"
+                alt="Deep field of stars and nebulae"
+                loading="lazy"
+              /><span class="mono">03 / DEEP FIELD</span></a
+            >
+          </div>
+        </section>
+
+        <section class="final-cta section-pad">
+          <p class="eyebrow mono">YOUR NEXT CHAPTER</p>
+          <h2>Space is closer<br />than <span>you think.</span></h2>
+          <a class="button button-primary" href="contact.html"
+            >Start a conversation
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+          ></a>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-main">
+          <a class="brand" href="index.html"
+            ><span class="brand-orbit" aria-hidden="true"><i></i></span
+            ><span>ORBITAL<span class="brand-accent">_X</span></span></a
+          >
+          <p>
+            A new frontier for science, discovery,<br />and the future of life
+            beyond Earth.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i></a
+            ><a href="https://www.linkedin.com/" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i></a
+            ><a href="https://www.youtube.com/" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div>
+            <span class="mono">EXPLORE</span
+            ><a href="station.html">The Station</a><a href="crew.html">Crew</a
+            ><a href="missions.html">Missions</a>
+          </div>
+          <div>
+            <span class="mono">DISCOVER</span
+            ><a href="discoveries.html">Discoveries</a> ><a href="gallery.html"
+              >Gallery</a
+            >
+            ><a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <span class="mono">MISSION CONTROL</span
+            ><span>Low Earth Orbit</span> ><span>51° 38′ N · 408 KM</span>
+            ><span class="concept-note"
+              >Concept project · Fictional station</span
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2036 ORBITAL_X · CONCEPT PROJECT</span>
+          ><a href="contact.html">Privacy & enquiries</a> ><a href="#home"
+            >Back to top ↑</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

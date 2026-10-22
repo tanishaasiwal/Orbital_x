@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070A12" />
+    <meta
+      name="description"
+      content="Explore the fictional ORBITAL_X mission manifest and research expeditions."
+    />
+    <title>Missions | ORBITAL_X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="missions">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="ORBITAL_X home"
+          ><span class="brand-orbit" aria-hidden="true"><i></i></span
+          ><span>ORBITAL<span class="brand-accent">_X</span></span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span>
+        </button>
+        <nav
+          class="primary-nav"
+          id="primary-nav"
+          aria-label="Primary navigation"
+        >
+          <a href="index.html" data-nav="home">Home</a
+          ><a href="station.html" data-nav="station">The Station</a
+          ><a href="crew.html" data-nav="crew">Crew</a
+          ><a href="missions.html" data-nav="missions">Missions</a
+          ><a href="discoveries.html" data-nav="discoveries">Discoveries</a
+          ><a href="gallery.html" data-nav="gallery">Gallery</a
+          ><a href="contact.html" data-nav="contact">Contact</a>
+        </nav>
+        <a class="header-cta" href="missions.html#manifest"
+          >Track missions
+          <i class="fa-solid fa-list-check" aria-hidden="true"></i
+        ></a>
+      </header>
+      <main>
+        <section class="page-hero missions-page-hero">
+          <div
+            class="page-hero-image"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=2200&q=88&quot;);
+            "
+          ></div>
+          <div class="page-hero-shade"></div>
+          <div class="page-hero-content">
+            <p class="eyebrow mono">
+              <span class="live-dot"></span> FLIGHT MANIFEST / 2036—2038
+            </p>
+            <h1>Every mission<br />opens <span>a door.</span></h1>
+            <p>
+              Purposeful expeditions for research that reaches beyond the
+              horizon.
+            </p>
+            <span class="concept-tag mono"
+              >FICTIONAL MANIFEST · CONCEPT DATA</span
+            >
+          </div>
+        </section>
+        <section class="mission-manifest section-pad" id="manifest">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow mono">01 / EXPEDITION SCHEDULE</p>
+              <h2>Mission<br /><span>manifest.</span></h2>
+            </div>
+            <p>Filter the concept schedule by mission status.</p>
+          </div>
+          <div class="filter-bar" role="group" aria-label="Filter missions">
+            <button
+              class="filter-button is-selected"
+              type="button"
+              data-mission-filter="all"
+              aria-pressed="true"
+            >
+              All missions</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-mission-filter="planned"
+              aria-pressed="false"
+            >
+              Planned</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-mission-filter="design"
+              aria-pressed="false"
+            >
+              In design</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-mission-filter="complete"
+              aria-pressed="false"
+            >
+              Completed
+            </button>
+          </div>
+          <div class="manifest-list">
+            <article class="manifest-card" data-mission-status="planned">
+              <div class="manifest-top">
+                <span class="mission-id mono">OX-07 / 2036 Q3</span
+                ><span class="mission-status">PLANNED</span>
+              </div>
+              <h3>Living systems,<br />new worlds.</h3>
+              <p>
+                A ten-day expedition exploring how resilient living systems
+                behave in a microgravity environment.
+              </p>
+              <div class="manifest-meta">
+                <span class="mono">LIFE SCIENCES</span
+                ><span class="mono">10 DAYS</span
+                ><span class="mono">CREW OF 6</span>
+              </div>
+            </article>
+            <article class="manifest-card" data-mission-status="design">
+              <div class="manifest-top">
+                <span class="mission-id mono">OX-08 / 2037 Q1</span
+                ><span class="mission-status">IN DESIGN</span>
+              </div>
+              <h3>Materials without<br />gravity.</h3>
+              <p>
+                A proposed research flight investigating how orbital
+                manufacturing could inform next-generation materials.
+              </p>
+              <div class="manifest-meta">
+                <span class="mono">MATERIALS</span
+                ><span class="mono">14 DAYS</span
+                ><span class="mono">CREW OF 6</span>
+              </div>
+            </article>
+            <article class="manifest-card" data-mission-status="planned">
+              <div class="manifest-top">
+                <span class="mission-id mono">OX-09 / 2037 Q2</span
+                ><span class="mission-status">PLANNED</span>
+              </div>
+              <h3>Eyes on the<br />blue planet.</h3>
+              <p>
+                An Earth-observation concept mission pairing crew imagery with
+                environmental sensor research.
+              </p>
+              <div class="manifest-meta">
+                <span class="mono">EARTH SCIENCE</span
+                ><span class="mono">12 DAYS</span
+                ><span class="mono">CREW OF 6</span>
+              </div>
+            </article>
+            <article class="manifest-card" data-mission-status="complete">
+              <div class="manifest-top">
+                <span class="mission-id mono">OX-06 / 2036 Q1</span
+                ><span class="mission-status">COMPLETE</span>
+              </div>
+              <h3>First light<br />in orbit.</h3>
+              <p>
+                The initial fictional commissioning flight: a systems shakedown
+                and crew habitat evaluation.
+              </p>
+              <div class="manifest-meta">
+                <span class="mono">COMMISSIONING</span
+                ><span class="mono">8 DAYS</span
+                ><span class="mono">CREW OF 4</span>
+              </div>
+            </article>
+          </div>
+          <p class="fine-print mono">
+            ORBITAL_X, ITS CREW, FLIGHTS, DATES, AND RESEARCH PROGRAMS ARE
+            FICTIONAL CONCEPT DATA.
+          </p>
+        </section>
+        <section class="mission-note section-pad">
+          <span class="eyebrow mono">MISSION DESIGN PRINCIPLE</span>
+          <h2>
+            Go with a question.<br /><span>Come back with better ones.</span>
+          </h2>
+          <p>
+            Each fictional expedition is imagined as a collaboration between
+            curious people, careful engineering, and research with a meaningful
+            purpose.
+          </p>
+          <a class="button button-primary" href="contact.html"
+            >Propose a collaboration
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+          ></a>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="footer-main">
+          <a class="brand" href="index.html"
+            ><span class="brand-orbit" aria-hidden="true"><i></i></span
+            ><span>ORBITAL<span class="brand-accent">_X</span></span></a
+          >
+          <p>
+            A new frontier for science, discovery,<br />and the future of life
+            beyond Earth.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i></a
+            ><a href="https://www.linkedin.com/" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i></a
+            ><a href="https://www.youtube.com/" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div>
+            <span class="mono">EXPLORE</span
+            ><a href="station.html">The Station</a><a href="crew.html">Crew</a
+            ><a href="missions.html">Missions</a>
+          </div>
+          <div>
+            <span class="mono">DISCOVER</span
+            ><a href="discoveries.html">Discoveries</a
+            ><a href="gallery.html">Gallery</a
+            ><a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <span class="mono">MISSION CONTROL</span><span>Low Earth Orbit</span
+            ><span>51° 38′ N · 408 KM</span
+            ><span class="concept-note"
+              >Concept project · Fictional station</span
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2036 ORBITAL_X · CONCEPT PROJECT</span
+          ><a href="contact.html">Privacy & enquiries</a
+          ><a href="#">Back to top ↑</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

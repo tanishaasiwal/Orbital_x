@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070A12" />
+    <meta
+      name="description"
+      content="Contact the ORBITAL_X concept team about research, partnerships, and media."
+    />
+    <title>Contact | ORBITAL_X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="contact">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="ORBITAL_X home"
+          ><span class="brand-orbit" aria-hidden="true"><i></i></span
+          ><span>ORBITAL<span class="brand-accent">_X</span></span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span>
+        </button>
+        <nav
+          class="primary-nav"
+          id="primary-nav"
+          aria-label="Primary navigation"
+        >
+          <a href="index.html" data-nav="home">Home</a
+          ><a href="station.html" data-nav="station">The Station</a
+          ><a href="crew.html" data-nav="crew">Crew</a
+          ><a href="missions.html" data-nav="missions">Missions</a
+          ><a href="discoveries.html" data-nav="discoveries">Discoveries</a
+          ><a href="gallery.html" data-nav="gallery">Gallery</a
+          ><a href="contact.html" data-nav="contact">Contact</a>
+        </nav>
+        <a class="header-cta" href="missions.html#manifest"
+          >Track missions
+          <i class="fa-solid fa-list-check" aria-hidden="true"></i
+        ></a>
+      </header>
+      <main>
+        <section class="page-hero contact-page-hero">
+          <div
+            class="page-hero-image"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=2200&q=88&quot;);
+            "
+          ></div>
+          <div class="page-hero-shade"></div>
+          <div class="page-hero-content">
+            <p class="eyebrow mono">
+              <span class="live-dot"></span> MISSION CONTROL / OPEN CHANNEL
+            </p>
+            <h1>Let's talk about<br /><span>what comes next.</span></h1>
+            <p>
+              Ideas, research, partnerships, or just a question about the view.
+              Send us a signal.
+            </p>
+          </div>
+        </section>
+        <section class="contact-layout section-pad">
+          <div class="contact-aside">
+            <p class="eyebrow mono">CONTACT / 001</p>
+            <h2>
+              Every frontier<br />starts with a<br /><span>conversation.</span>
+            </h2>
+            <p>
+              ORBITAL_X is a fictional station concept created to explore the
+              future of commercial spaceflight. Use this demo form to preview
+              the contact experience.
+            </p>
+            <div class="contact-channel">
+              <span class="mono">MISSION CONTROL</span
+              ><strong>Earth-based concept team</strong
+              ><span>Replies are not transmitted to orbit.</span>
+            </div>
+            <div class="contact-channel">
+              <span class="mono">PARTNERSHIPS</span
+              ><a href="mailto:hello@orbital-x.example"
+                >hello@orbital-x.example</a
+              ><span>Demo address · not monitored</span>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <p class="eyebrow mono">SEND A MESSAGE</p>
+            <label for="contact-name">YOUR NAME</label
+            ><input
+              id="contact-name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              placeholder="How should we address you?"
+              required
+            /><label for="contact-email">EMAIL ADDRESS</label
+            ><input
+              id="contact-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              required
+            /><label for="contact-interest">WHAT'S ON YOUR MIND?</label
+            ><select id="contact-interest" name="interest" required>
+              <option value="" disabled selected>Select a topic</option>
+              <option>Research collaboration</option>
+              <option>Station concept</option>
+              <option>Media enquiry</option>
+              <option>Something else</option></select
+            ><label for="contact-message">YOUR MESSAGE</label
+            ><textarea
+              id="contact-message"
+              name="message"
+              rows="4"
+              placeholder="Tell us a little more..."
+              required
+            ></textarea
+            ><button class="button button-primary" type="submit">
+              Send your message
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+            <span class="fine-print mono"
+              >DEMO FORM ONLY · YOUR MESSAGE IS NOT SENT TO A SERVER.</span
+            >
+          </form>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="footer-main">
+          <a class="brand" href="index.html"
+            ><span class="brand-orbit" aria-hidden="true"><i></i></span
+            ><span>ORBITAL<span class="brand-accent">_X</span></span></a
+          >
+          <p>
+            A new frontier for science, discovery,<br />and the future of life
+            beyond Earth.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i></a
+            ><a href="https://www.linkedin.com/" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i></a
+            ><a href="https://www.youtube.com/" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div>
+            <span class="mono">EXPLORE</span
+            ><a href="station.html">The Station</a><a href="crew.html">Crew</a
+            ><a href="missions.html">Missions</a>
+          </div>
+          <div>
+            <span class="mono">DISCOVER</span
+            ><a href="discoveries.html">Discoveries</a
+            ><a href="gallery.html">Gallery</a
+            ><a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <span class="mono">MISSION CONTROL</span><span>Low Earth Orbit</span
+            ><span>51° 38′ N · 408 KM</span
+            ><span class="concept-note"
+              >Concept project · Fictional station</span
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2036 ORBITAL_X · CONCEPT PROJECT</span
+          ><a href="contact.html">Privacy & enquiries</a
+          ><a href="#">Back to top ↑</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

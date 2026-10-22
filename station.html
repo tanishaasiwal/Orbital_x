@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070A12" />
+    <meta
+      name="description"
+      content="Explore the fictional ORBITAL_X station modules and concept specifications."
+    />
+    <title>The Station | ORBITAL_X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="station">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="ORBITAL_X home">
+          <span class="brand-orbit" aria-hidden="true"><i></i></span>
+          <span>ORBITAL<span class="brand-accent">_X</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span></span><span></span>
+        </button>
+        <nav
+          class="primary-nav"
+          id="primary-nav"
+          aria-label="Primary navigation"
+        >
+          <a href="index.html" data-nav="home">Home</a>
+          <a href="station.html" data-nav="station">The Station</a>
+          <a href="crew.html" data-nav="crew">Crew</a>
+          <a href="missions.html" data-nav="missions">Missions</a>
+          <a href="discoveries.html" data-nav="discoveries">Discoveries</a>
+          <a href="gallery.html" data-nav="gallery">Gallery</a>
+          <a href="contact.html" data-nav="contact">Contact</a>
+        </nav>
+        <a class="header-cta" href="missions.html#manifest"
+          >Track missions
+          <i class="fa-solid fa-list-check" aria-hidden="true"></i
+        ></a>
+      </header>
+      <main>
+        <section class="page-hero station-page-hero">
+          <div
+            class="page-hero-image"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2200&q=88&quot;);
+            "
+          ></div>
+          <div class="page-hero-shade"></div>
+          <div class="page-hero-content">
+            <p class="eyebrow mono">
+              <span class="live-dot"></span> OX / 001 — STATION SYSTEMS
+            </p>
+            <h1>A home built<br />for <span>the unknown.</span></h1>
+            <p>
+              A modular research outpost designed to make living and working in
+              orbit feel a little more human.
+            </p>
+            <a class="button button-primary" href="#modules"
+              >Explore the modules
+              <i class="fa-solid fa-arrow-down" aria-hidden="true"></i
+            ></a>
+          </div>
+          <p class="page-image-label mono">
+            CONCEPT VISUALIZATION · LOW EARTH ORBIT
+          </p>
+        </section>
+        <section class="station-overview section-pad">
+          <div>
+            <p class="eyebrow mono">THE ORBITAL PLATFORM</p>
+            <h2>One station.<br /><span>Many frontiers.</span></h2>
+          </div>
+          <div class="overview-copy">
+            <p>
+              ORBITAL_X is a fictional commercial station concept: a place for
+              independent research, international collaboration, and a new
+              perspective on our home planet.
+            </p>
+            <p>
+              Its six connected modules are imagined around three essentials:
+              purposeful work, restorative living, and an unobstructed view of
+              Earth.
+            </p>
+            <span class="concept-tag mono"
+              >FICTIONAL CONCEPT · NOT AN OPERATIONAL SPACE STATION</span
+            >
+          </div>
+        </section>
+        <section class="module-explorer section-pad" id="modules">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow mono">01 / MODULE EXPLORER</p>
+              <h2>Six spaces.<br /><span>One shared orbit.</span></h2>
+            </div>
+            <p>Select a module to see its imagined role aboard ORBITAL_X.</p>
+          </div>
+          <div class="explorer-layout">
+            <div
+              class="station-schematic"
+              role="group"
+              aria-label="Interactive concept diagram of station modules"
+            >
+              <div class="schematic-spine"></div>
+              <button
+                class="module-node node-command"
+                data-detail-title="Command Center"
+                data-detail-kicker="OX / 01 · FLIGHT SYSTEMS"
+                data-detail-copy="The operational heart of the station. It coordinates navigation, communications, safety procedures, and mission activity."
+                data-detail-facilities="Flight deck · Communications array · Mission planning suite"
+              >
+                <span>01</span>Command
+              </button>
+              <button
+                class="module-node node-lab"
+                data-detail-title="Research Laboratory"
+                data-detail-kicker="OX / 02 · RESEARCH"
+                data-detail-copy="A flexible microgravity workspace for imagined life science and materials research."
+                data-detail-facilities="Experiment racks · Sample preparation · Data uplink"
+              >
+                <span>02</span>Research
+              </button>
+              <button
+                class="module-node node-living"
+                data-detail-title="Living Quarters"
+                data-detail-kicker="OX / 03 · CREW HABITAT"
+                data-detail-copy="Private crew berths and shared routines make this compact habitat a place to reset between demanding days."
+                data-detail-facilities="Six crew berths · Galley · Wellness zone"
+              >
+                <span>03</span>Living
+              </button>
+              <button
+                class="module-node node-dome"
+                data-detail-title="Observation Dome"
+                data-detail-kicker="OX / 04 · EARTH OBSERVATION"
+                data-detail-copy="A panoramic observation space imagined for crew reflection, photography, and visual monitoring of Earth."
+                data-detail-facilities="Panoramic windows · Imaging station · Observation console"
+              >
+                <span>04</span>Observation
+              </button>
+              <button
+                class="module-node node-solar"
+                data-detail-title="Solar Array"
+                data-detail-kicker="OX / 05 · POWER SYSTEMS"
+                data-detail-copy="Deployable photovoltaic wings form part of this concept's imagined power system."
+                data-detail-facilities="Solar wings · Power regulation · Thermal control"
+              >
+                <span>05</span>Solar array
+              </button>
+              <button
+                class="module-node node-dock"
+                data-detail-title="Docking Bay"
+                data-detail-kicker="OX / 06 · ARRIVAL & CARGO"
+                data-detail-copy="A proposed arrival point for crew vehicles, cargo delivery, and transfer between station and visiting spacecraft."
+                data-detail-facilities="Crew hatch · Cargo interface · Vehicle services"
+              >
+                <span>06</span>Docking bay
+              </button>
+              <span class="schematic-label mono"
+                >ORBITAL_X / CONFIGURATION A</span
+              >
+            </div>
+            <aside class="explorer-note">
+              <span class="mono">INTERACTIVE SCHEMATIC</span>
+              <h3>Designed around<br />the crew.</h3>
+              <p>
+                Each space connects to a shared systems spine. Select a station
+                node to explore its purpose and facilities.
+              </p>
+              <span class="concept-tag mono"
+                >ALL MODULE DETAILS ARE CONCEPT DATA</span
+              >
+            </aside>
+          </div>
+        </section>
+        <section class="specs-section section-pad">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow mono">02 / FLIGHT SYSTEMS</p>
+              <h2>Concept specs.<br /><span>Clear context.</span></h2>
+            </div>
+            <p>
+              These numbers describe an imagined design, not an existing vehicle
+              or certified station.
+            </p>
+          </div>
+          <div class="specs-grid">
+            <div>
+              <span>REFERENCE ORBIT</span><strong>408 <small>KM</small></strong>
+              <em>Concept target altitude</em>
+            </div>
+            <div>
+              <span>PRESSURIZED MODULES</span><strong>06</strong>
+              <em>Fictional configuration</em>
+            </div>
+            <div>
+              <span>CREW CAPACITY</span><strong>06</strong>
+              <em>Design study estimate</em>
+            </div>
+            <div>
+              <span>MISSION DURATION</span>
+              <strong>10 <small>DAYS</small></strong>
+              <em>Example profile</em>
+            </div>
+          </div>
+          <div class="fact-note">
+            <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+            <p>
+              <strong>Concept vs. verified fact.</strong> The station, layout,
+              capacity, and mission profile are fictional. Low Earth orbit is
+              real; the ORBITAL_X configuration is not an existing station.
+            </p>
+          </div>
+        </section>
+        <dialog class="detail-dialog" aria-labelledby="detail-title">
+          <button class="dialog-close" type="button" aria-label="Close details">
+            ×
+          </button>
+          <p class="eyebrow mono" data-dialog-kicker></p>
+          <h2 id="detail-title" data-dialog-title></h2>
+          <p data-dialog-copy></p>
+          <div class="dialog-facilities">
+            <span class="mono">KEY FACILITIES</span>
+            <ul data-dialog-facilities></ul>
+          </div>
+        </dialog>
+        <section class="final-cta section-pad">
+          <p class="eyebrow mono">THE NEXT CHAPTER STARTS HERE</p>
+          <h2>Take a closer<br />look at <span>orbit.</span></h2>
+          <a class="button button-primary" href="contact.html"
+            >Talk to mission control
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+          ></a>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div class="footer-main">
+          <a class="brand" href="index.html"
+            ><span class="brand-orbit" aria-hidden="true"><i></i></span
+            ><span>ORBITAL<span class="brand-accent">_X</span></span></a
+          >
+          <p>
+            A new frontier for science, discovery,<br />and the future of life
+            beyond Earth.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i></a
+            ><a href="https://www.linkedin.com/" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i></a
+            ><a href="https://www.youtube.com/" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div>
+            <span class="mono">EXPLORE</span>
+            <a href="station.html">The Station</a><a href="crew.html">Crew</a>
+            <a href="missions.html">Missions</a>
+          </div>
+          <div>
+            <span class="mono">DISCOVER</span>
+            <a href="discoveries.html">Discoveries</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <span class="mono">MISSION CONTROL</span
+            ><span>Low Earth Orbit</span>
+            <span>51° 38′ N · 408 KM</span>
+            <span class="concept-note">Fictional station concept</span>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2036 ORBITAL_X · CONCEPT PROJECT</span>
+          <a href="contact.html">Privacy & enquiries</a>
+          <a href="#">Back to top ↑</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
